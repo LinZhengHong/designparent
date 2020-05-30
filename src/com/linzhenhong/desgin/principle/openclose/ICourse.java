@@ -1,0 +1,7 @@
+package com.linzhenhong.desgin.principle.openclose;
+
+public interface ICourse {
+    Integer getId();
+    String getName();
+    Double getPrice();
+}
