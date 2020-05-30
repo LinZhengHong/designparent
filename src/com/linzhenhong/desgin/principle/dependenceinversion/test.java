@@ -1,7 +1,5 @@
 package com.linzhenhong.desgin.principle.dependenceinversion;
 
-import jdk.jfr.StackTrace;
-import org.junit.Test;
 
 public class test {
 
