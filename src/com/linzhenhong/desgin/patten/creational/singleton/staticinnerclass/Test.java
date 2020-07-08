@@ -1,4 +1,4 @@
-package com.linzhenhong.desgin.patten.creational.singleton;
+package com.linzhenhong.desgin.patten.creational.singleton.staticinnerclass;
 
 /**
  * @author LinZhenHong
