@@ -7,6 +7,6 @@ public class T implements Runnable {
     public void run() {
         /*LazySingleton lazySingleton= LazySingleton.getInstance();*/
         StaticInnerClassSingleton staticInnerClassSingleton=StaticInnerClassSingleton.getInstance();
-        System.out.println(Thread.currentThread().getContextClassLoader()+" "+"StaticInnerClassSingleton");
+        System.out.println(Thread.currentThread().getName()+" "+"StaticInnerClassSingleton");
     }
 }

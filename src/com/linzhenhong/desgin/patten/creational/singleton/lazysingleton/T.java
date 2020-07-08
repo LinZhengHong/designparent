@@ -4,6 +4,6 @@ public class T implements Runnable {
     @Override
     public void run() {
         LazySingleton lazySingleton= LazySingleton.getInstance();
-        System.out.println(Thread.currentThread().getContextClassLoader()+" "+"LazySingleton");
+        System.out.println(Thread.currentThread().getId()+" "+"LazySingleton");
     }
 }

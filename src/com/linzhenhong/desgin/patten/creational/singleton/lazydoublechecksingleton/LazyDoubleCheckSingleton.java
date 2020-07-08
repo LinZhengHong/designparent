@@ -1,6 +1,7 @@
 package com.linzhenhong.desgin.patten.creational.singleton.lazydoublechecksingleton;
 
 /**
+ * 懒汉式-双重检查
  * @author LinZhenHong
  */
 public class LazyDoubleCheckSingleton {
